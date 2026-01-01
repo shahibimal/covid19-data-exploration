@@ -1,7 +1,7 @@
 -- =========================================================================================
 -- Project: COVID-19 Data Analysis 
 -- Auhtor:Bimal Shahi
---Tools:SQL Server
+--Tools:Microsoft Excel,SQL Server, Tableau,
 -- =========================================================================================
 
 -- Just a quick check to see if the data imported correctly (filtering out the summaries)
@@ -141,3 +141,4 @@ JOIN portfoilioproject..CovidVaccinations v
     and d.date = v.date
 
 where d.continent IS NOT NULL;
+
