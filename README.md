@@ -1,18 +1,18 @@
-# COVID-19 Data Exploration 🌍
+# COVID-19 Data Analysis Project 🌍
 
-##  Project Overview
-As a **Computer Engineering Student**, I built this project to demonstrate the full data pipeline—from raw data cleaning to advanced SQL analysis. 
+## 💻 Project Overview
+As a **Computer Engineering Student**, I developed this project to demonstrate a complete data lifecycle. I transformed raw global health data into an interactive visual story using a structured technical pipeline.
 
-## 🛠️ Tech Stack
-* **Excel:** Initial data profiling and column reduction.
-* **SQL Server (T-SQL):** Data transformation, Joins, CTEs, and Window Functions.
+## 🏗️ Project Structure
+* **[sql/](./sql/):** Contains the T-SQL scripts for data exploration, including CTEs, Joins, and Window Functions.
+* **[data/](./data/):** Cleaned datasets (originally processed in Excel).
+* **[tableau/](./tableau/):** High-resolution export of the final dashboard.
+* **[screenshots/](./screenshots/):** Visual evidence of the SQL environment and query results.
 
-## 📈 Key Engineering Logic Used
-* **Data Cleaning:** Manually processed the raw Excel dataset to remove irrelevant features and prepare for SQL import.
-* **Error Handling:** Used `NULLIF` to prevent mathematical errors (division by zero) and `CAST/CONVERT` for data type consistency.
-* **Rolling Aggregations:** Implemented Window Functions to calculate a running total of vaccinations per country.
+## 🛠️ The Technical Pipeline
+1. **Pre-processing:** Cleaned raw data in **Excel** to handle missing values and remove redundant features.
+2. **Exploration:** Imported data into **MS SQL Server** for advanced querying.
+3. **Visualization:** Connected the processed SQL data to **Tableau** for trend analysis.
 
-## 📁 Files
-* `Covid_Data_Exploration_Project.sql`: The full analytical script.
-* `CovidDeaths.xlsx`: The cleaned dataset.
-* `CovidVaccinations.xlsx`: The cleaned dataset.
+## 🔗 Live Dashboard
+👉 **[View the Interactive Tableau Dashboard Here](YOUR_LINK_HERE)**
