@@ -5,7 +5,7 @@ This project analyzes global COVID-19 cases, deaths, and vaccination trends usin
 It was created as a **portfolio project** to practice real-world data analysis skills such as querying, data transformation, and visualization.
 
 ## 📁 Project Structure
-- **[sql](sql)/** – SQL queries used for data exploration and analysis (joins, CTEs, window functions).
+- **[sql](sql)/** – SQL queries used for data exploration and analysis (joins, CTEs, window functions) and visualization-ready data transformation..
 - **[data](data)/** – COVID-19 datasets (Excel format) used for analysis.
 - **[dashboard](dashboard)/** – Tableau dashboard files and exported visuals.
 
