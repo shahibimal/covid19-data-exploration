@@ -4,9 +4,9 @@
 In the real world, data is rarely clean, especially when it comes from global health reporting. This project was born out of a desire to move beyond "basic tracking" and into actual **Data Engineering**. I took a massive dataset of global COVID-19 records and built a pipeline to extract meaningful **Key Performance Indicators (KPIs)** that could actually assist in healthcare decision-making.
 
 ### 📁 Project Architecture
-* **`[📂 /sql]`** – Contains production-ready scripts. I focused on writing modular T-SQL using **CTEs** and **Window Functions** to ensure the logic is scalable and easy to audit.
-* **`[📂 /data]`** – Cleaned and normalized datasets (originally sourced from Our World in Data).
-* **`[📂 /dashboard]`** – Tableau workbooks that translate thousands of rows into visual stories.
+* **[📂 /sql]** – Contains production-ready scripts. I focused on writing modular T-SQL using **CTEs** and **Window Functions** to ensure the logic is scalable and easy to audit.
+* **[📂 /data]** – Cleaned and normalized datasets (originally sourced from Our World in Data).
+* **[📂 /dashboard]** – Tableau workbooks that translate thousands of rows into visual stories.
 
 ### 🛠️ The Tech Stack
 * **MS SQL Server (T-SQL):** The engine used for all heavy lifting—data cleaning, joining disparate tables, and complex aggregations.
